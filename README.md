@@ -4,7 +4,7 @@ Welcome to my main portfolio repository. This project serves as the central hub 
 
 ##  Live Portfolio
 The source code in this repository is deployed and hosted on **Netlify**.
-> **[Link to your live portfolio site]**
+> https://choiyonc.dev/
 
 ---
 
