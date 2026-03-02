@@ -216,6 +216,24 @@ footer {
     text-align: center;
 }
 
+/* Status Badge */
+.status-badge {
+    display: inline-block;
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 4px 12px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.status-badge.in-progress {
+    background-color: rgba(255, 193, 7, 0.15);
+    color: #ffc107;
+    border: 1px solid #ffc107;
+}
+
 /* Project Card Links */
 .project-links {
     margin-top: 20px;
