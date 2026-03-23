@@ -1,26 +1,20 @@
-# My Main Portfolio
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-Welcome to my central portfolio hub. This repository contains my personal portfolio website and documentation for my technical projects. I am currently a Cybersecurity student at **Temple University** (Expected Graduation: May 2026) with experience in software development and implementation.
+# Run and deploy your AI Studio app
 
----
+This contains everything you need to run your app locally.
 
-##  Repository Contents
-* **index.html & style.css:** The source code for my responsive personal portfolio.
-* **cloud-security-lab.pdf:** Technical documentation focusing on cloud security protocols and vulnerability assessments.
-* **Project References:** Documentation for full-stack applications like the Restaurant Review & Reservation System.
+View your app in AI Studio: https://ai.studio/apps/df3d3e9f-dcf3-4003-8518-789ca7aa493e
 
-##  Technical Stack
-* **Languages:** HTML (72.5%), CSS (27.5%), and C#.
-* **Frameworks/APIs:** ASP.NET Core MVC, RESTful Web API, and Entity Framework Core.
-* **Databases:** SQL Server.
-* **Tools:** Git, Visual Studio, and Netlify.
+## Run Locally
 
----
+**Prerequisites:**  Node.js
 
-##  Getting Started: Local Setup
 
-### 1. Running the Portfolio Website (Static)
-To view the portfolio site locally:
-1. **Clone this repository:**
-   ```bash
-   git clone [https://github.com/cchoiyon/MainPortfolio.git](https://github.com/cchoiyon/MainPortfolio.git)
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
