@@ -18,10 +18,7 @@ interface Project {
   status?: string;
 }
 
-interface WritingItem {
-  title: string;
-  url: string;
-}
+
 
 interface NavItem {
   label: string;
@@ -74,12 +71,7 @@ const PROJECTS: Project[] = [
   },
 ];
 
-const WRITING: WritingItem[] = [
-  { title: 'Understanding STRIDE threat modeling in practice', url: '#' },
-  { title: 'Building a home lab on a student budget', url: '#' },
-  { title: 'Network forensics: what Wireshark really shows you', url: '#' },
-  { title: 'Active Directory from zero — my notes', url: '#' },
-];
+
 
 interface ExperienceItem {
   period: string;
@@ -437,41 +429,6 @@ export default function App() {
             <p style={{ color: '#888', lineHeight: 1.75 }}>
               I'm actively seeking full-time roles in security engineering or security operations. I learn by doing, almost every concept I've studied has a matching project in my GitHub.
             </p>
-          </motion.div>
-        </section>
-
-        <Divider />
-
-        {/* ── Writing ── */}
-        <section>
-          <motion.div
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true, margin: '-60px' }}
-            transition={{ duration: 0.5 }}
-          >
-            <SectionLabel text="Writing" />
-            <ul style={{ listStyle: 'none' }}>
-              {WRITING.map((item, i) => (
-                <li key={i}>
-                  <a
-                    href={item.url}
-                    style={{
-                      display: 'block',
-                      padding: '7px 0',
-                      color: '#999',
-                      fontSize: 14,
-                      transition: 'color 0.15s',
-                      borderBottom: i < WRITING.length - 1 ? '1px solid #141414' : 'none',
-                    }}
-                    onMouseEnter={e => (e.currentTarget.style.color = '#e8e8e8')}
-                    onMouseLeave={e => (e.currentTarget.style.color = '#999')}
-                  >
-                    {item.title}
-                  </a>
-                </li>
-              ))}
-            </ul>
           </motion.div>
         </section>
 
