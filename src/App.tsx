@@ -96,7 +96,7 @@ const EXPERIENCE: ExperienceItem[] = [
     org: 'Temple University',
     location: 'Philadelphia, PA',
     bullets: [
-      'Active member of Temple's premier software development community.',
+      "Active member of Temple's premier software development community.",
       'Collaborated on various projects, enhancing coding skills and teamwork abilities.',
       'Participated in weekly technical workshops and coding challenges to sharpen proficiency in development technologies.',
     ],
